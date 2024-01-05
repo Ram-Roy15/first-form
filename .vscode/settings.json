@@ -1,0 +1,8 @@
+{
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "diffEditor.codeLens": true,
+    "editor.formatOnType": true
+}

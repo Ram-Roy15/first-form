@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/syles/styles.css" />
+    <title>first form</title>
+  </head>
+  <body>
+    <form>
+      <fieldset>
+        <label for="name">
+          Enter Your Name:
+          <input
+            type="text"
+            placeholder="Enter your name"
+            name="name"
+            id="name"
+          />
+        </label>
+        <label for="email"
+          >Enter Your Email:
+          <input type="text" placeholder="Enter Your Email" id="email" />
+        </label>
+        <label for="password">
+          Enter Your password
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </label>
+        <label for="login">
+          <input type="submit" value="submit" />
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select one Pitha</legend>
+
+        <label for="Pitha">
+          <input type="radio" name="Pitha" id="chitoi" />Chitoi Pitha
+        </label>
+
+        <label for="Pitha">
+          <input type="radio" name="Pitha" id="vapa" />Vapa Pitha
+        </label>
+        <label for="Pitha">
+          <input type="radio" name="Pitha" id="nokshi" />Nokshi Pitha
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Select one and more vorta</legend>
+        <label for="vorta">
+          <input type="checkbox" name="vorta" id="sutki" />Sutki vorta
+        </label>
+        <label for="vorta">
+          <input type="checkbox" name="vorta" id="sorisha" />Sorisha vorta
+        </label>
+        <label for="vorta">
+          <input type="checkbox" name="vorta" id="dal" />Dal vorta
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="order">
+          <input type="button" value="order" />
+        </label>
+      </fieldset>
+    </form>
+  </body>
+</html>
